@@ -232,7 +232,6 @@ def converter_excel_download(df_consolidado, df_detalhado, df_resumo, df_selecoe
     return output
 
 st.title("⚡ Painel Andon de Suprimentos")
-st.caption("Agora permite simular várias semanas para o mesmo item / derivação.")
 
 try:
     file_source, origem = carregar_excel_local_ou_upload()
