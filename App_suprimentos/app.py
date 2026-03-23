@@ -132,7 +132,7 @@ def simular(base, saldo, tipos, familias, selecoes):
     consolidado = consolidado.sort_values(["ORDEM_GRAFICO","ITEM"], ascending=[False, True]).reset_index(drop=True)
     return detalhado, consolidado
 
-def grafico
+def grafico_barras_tesla(df):
     plot_df = df.copy().sort_values("ORDEM_GRAFICO", ascending=False).reset_index(drop=True)
     fig = go.Figure()
     fig.add_trace(go.Bar(
