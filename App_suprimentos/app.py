@@ -206,7 +206,6 @@ def converter_excel_download(df_consolidado, df_detalhado, df_resumo, df_selecoe
     return output
 
 st.title("⚡ Painel Andon de Suprimentos")
-st.caption("Permite quantidades diferentes por derivação dentro do mesmo COD. Modelo.")
 
 uploaded = st.sidebar.file_uploader("Arquivo Excel", type=["xlsx", "xlsm", "xls"])
 if not uploaded:
