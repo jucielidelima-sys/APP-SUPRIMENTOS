@@ -237,7 +237,6 @@ try:
             andon_sel = ["RUPTURA", "OK"]
 
     st.subheader("Seleção por COD. Modelo e Derivação")
-    st.caption("Para o mesmo COD. Modelo, informe quantidades diferentes por derivação.")
 
     linhas_selecao = []
     for idx, cod_modelo in enumerate(cod_modelos_sel, start=1):
