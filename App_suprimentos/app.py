@@ -264,7 +264,6 @@ try:
             andon_sel = ["RUPTURA", "OK"]
 
     st.subheader("Seleção por COD. Modelo, Derivação e Semanas")
-    st.caption("Para a mesma derivação, você pode informar quantidades em várias semanas.")
 
     semana_opcoes = ["Semana 1", "Semana 2", "Semana 3", "Semana 4", "Semana 5", "Semana 6", "Semana 7", "Semana 8"]
     linhas_selecao = []
