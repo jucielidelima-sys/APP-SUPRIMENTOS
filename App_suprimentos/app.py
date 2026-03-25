@@ -216,7 +216,6 @@ def converter_excel_download(df_consolidado, df_detalhado, df_resumo, df_selecoe
     return output
 
 st.title("⚡ Painel Andon de Suprimentos")
-st.caption("Mesma versão visual, com ajuste apenas nas tabelas para incluir a descrição do componente da aba saldo.")
 
 file_source, origem = carregar_excel_local_ou_upload()
 df_e, df_s, aba_e, aba_s = carregar_excel(file_source)
