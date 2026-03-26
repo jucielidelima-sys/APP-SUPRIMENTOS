@@ -511,7 +511,7 @@ def converter_excel_download(df_consolidado, df_detalhado, df_resumo, df_selecoe
     output.seek(0)
     return output
 
-st.markdown('<div class="glass-hero"><h1>🏭 Painel Andon de Suprimentos 4.0</h1><p>Fundo xadrez metálico, glow nos gráficos, cards estilo Tesla/PowerBI, efeito glassmorphism e layout de sala de controle.</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="glass-hero"><h1>🏭 Painel Andon de Suprimentos 4.0</h1><p></p></div>', unsafe_allow_html=True)
 
 file_source, origem = carregar_excel_local_ou_upload()
 df_e, df_s, aba_e, aba_s = carregar_excel(file_source)
